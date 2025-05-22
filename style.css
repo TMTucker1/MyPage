@@ -1,0 +1,31 @@
+body {
+    background-color: #b39ddb; /* Lighter lavender */
+}
+
+.profile-card {
+    background: #fff;
+    border: 2px solid #4a148c;
+    border-radius: 16px;
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 32px 24px;
+    box-shadow: 0 4px 16px rgba(74, 20, 140, 0.08);
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 2rem;
+    color: #4a148c; /* Dark purple */
+    font-family: 'Brush Script MT', cursive, sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: #464545; /* Grey */
+}
