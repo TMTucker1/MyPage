@@ -4,7 +4,7 @@ body {
 
 .profile-container {
     display: flex;
-    align-items: center;
+    align-items: stretch; /* Make children match height */
     justify-content: center;
     margin-top: 60px;
 }
@@ -17,13 +17,17 @@ body {
     padding: 32px 24px;
     box-shadow: 0 4px 16px rgba(74, 20, 140, 0.08);
     text-align: center;
-    margin: 0; /* Remove margin-top and margin for better alignment */
+    margin: 0;
+    height: 200px; /* Set a fixed height for both card and image */
+    /*display: flex;
+    #flex-direction: column;
+    #justify-content: center; */
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 16px; /* Match card's border radius for a rectangular look */
     border: 3px solid #4a148c;
     margin-left: 32px;
     object-fit: cover;
